@@ -16,10 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'  # Specify the Python version you want to use
-
-    - name: Install dependencies (if any)
-      run: pip install -r requirements.txt  # Skip if no dependencies
+        python-version: '3.x'  # Specify the Python version you want
 
     - name: Run Hello World script
       run: python hello.py
